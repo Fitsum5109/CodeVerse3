@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+
+#Website_background{
+    background-image: url(../order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: hsl(225, 100%, 94%);
+    position: fixed;
+    width: 1520px;
+    height: 703px;
+}
+#card_box{
+    width: 400px;
+    height: 550px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 75px auto;
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#image{
+    width:400px;
+    height: 175px;
+    background-color: black;
+
+    background-image: url(../order-summary-component-main/images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -ms-border-radius: 20px 20px 0px 0px;
+    -o-border-radius: 20px 20px 0px 0px;
+}
+
+h2{
+    text-align: center;
+    padding: 35px 0px 15px 0px;
+    font-weight: 900;
+    font-family: Red Hat Display;
+}
+
+#para-1{
+    text-align: center;
+    width: 280px;
+    margin: auto;
+    font-size: 16px;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    color:hsl(224, 23%, 55%);
+}
+p{
+    font-family: Red Hat Display;
+}
+
+#audio-box{
+    margin: 15px 50px 0px 50px;
+    /* width: 300px;
+    height: 80px; */
+    background-color: hsl(225, 100%, 94%);
+    /* margin: 20px auto 0px; */
+    Display: flex;
+    padding: 20px;
+
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+
+.hovered{
+    width: 285px;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    margin: 30px auto 0px auto;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.Unhovered{
+    width: 285px;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin: 0px auto;
+    padding: 10px;
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
